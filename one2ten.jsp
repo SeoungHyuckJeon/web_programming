@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
-<head><title>mode</title></head>
+<head><title>one2ten</title></head>
 <body>
 <%
     int i=1;
