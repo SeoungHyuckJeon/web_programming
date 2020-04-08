@@ -14,7 +14,7 @@
         placeholder="프로젝트에 대한 자세한 정보를 입력해주세요"
         required></textarea>
       <br><br>
-      <input type="reset"" value="초기화">
+      <input type="reset" value="초기화">
       <input type="submit" value="프로젝트 등록">
     </form>
   </body>
