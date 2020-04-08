@@ -3,7 +3,7 @@
   <head><title>프로젝트 정보</title></head>
   <body>
     <h2>프로젝트 정보</h2>
-    <form method="post" action="oproejct.jsp">
+    <form method="post" action="oproject.jsp">
       프로젝트 제목 <br>
       <input type="text" name="title" size="50"
         placeholder="제목을 구체적으로 기술해주세요"
