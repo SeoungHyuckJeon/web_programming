@@ -1,0 +1,136 @@
+/*wrapper*/
+ul.clfix li {
+  float: left;
+}
+img {
+  border: 0;
+}
+
+.mobile-img {
+  display: inline;
+}
+.clfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  max-height: 100%;
+  position: relative;
+}
+.wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* footer */
+.foo-top {
+  border-top: 1px solid #dbdbdb;
+  padding: 12px 0;
+  border-bottom: 3px solid #000000;
+  text-align: center;
+}
+.foo-top ul {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.foo-top ul li {
+  float: none;
+  display: inline-block;
+}
+.foo-top ul a {
+  display: block;
+  padding: 0 12px;
+  height: 24px;
+  margin-top: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #494848;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.foo-top ul a b {
+  color: #005b9f;
+}
+.foo-top .rel-site {
+  display: inline-block;
+}
+.foo-top .rel-site select {
+  width: 125px;
+  height: 24px;
+  margin-top: 12px;
+  background: url("../image/bg_select_down.png") no-repeat right center;
+  background-size: 22px auto;
+  border: 1px solid #cacaca;
+  color: #626262;
+  padding-left: 8px;
+  font-family: "Dotum", sans-serif;
+  font-size: small;
+}
+.foo-top .rel-site select::-ms-expand {
+  display: none;
+}
+.foo-top .rel-site img {
+  width: 24px;
+  vertical-align: middle;
+}
+.foo-bottom {
+  background: #e2e2e2;
+  text-align: center;
+  padding: 15px 0;
+}
+.foo-bottom:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+address h2 {
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+address .sns {
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+address .copy {
+  min-width: 480px;
+  position: absolute;
+  font-size: small;
+  font-style: normal;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+address .copy p {
+  line-height: 15px;
+}
+address .copy p:last-child {
+  color: #909090;
+}
+
+.foo-bottom {
+  padding: 15px 0 30px;
+  height: 85px;
+}
+.foo-top {
+  padding: 0 20px 15px 0;
+}
+.foo-top .rel-site {
+  float: right;
+  font-size: small;
+}
+.foo-top ul {
+  float: left;
+  margin-bottom: 0;
+}
+.monly {
+  display: none;
+}
